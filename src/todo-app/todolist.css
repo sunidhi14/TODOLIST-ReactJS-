@@ -1,0 +1,39 @@
+.todo-item{
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    margin: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    transition: 0.3s all;
+    color:black;
+    
+
+}
+
+.todo-item:hover {
+    padding: 30px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+    color:#ff4757;
+}
+.todo-title{
+    font-size: 25px;
+}
+.todo-description{
+    font-size: 25px;
+}
+.todo-deadline{
+    font-size: 21px;
+}
+.delete{
+    border-radius: 10px;
+    color:red
+}
+
+.edit{
+    color: blue;
+}
+
+.completed{
+    color:forestgreen;
+}

@@ -1,0 +1,111 @@
+.nav-bar {
+  width: 100%;
+  background: whitesmoke;
+  height: 72px;
+}
+
+.container {
+  width: 100%;
+  height: 500px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #333;
+  height: 140px;
+  color: white;
+}
+body{
+
+  background-image: url(todo-app/pic1.jpg);
+  
+
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  padding: 30px;
+}
+#todo{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  
+}
+#todolist{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right:50px;
+  margin-top:50px;
+  margin-bottom: 50px;
+  width:500px;
+  height:600px;
+  background-color:#ff7675;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  border: 1px solid black;
+}
+#title{
+  margin-top:150px;
+}
+#list{
+  display:flex;
+  justify-content: center;
+   width:550px;
+   height:600px;
+  margin-top:50px;
+  
+  margin-bottom: 50px;
+  background-color: #ff7675;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+}
+h1{
+  
+color: white;
+}
+#add{
+  width:250px;
+  height:50px;
+  font-size: large;
+  border-radius: 5px;
+  background-color:whitesmoke;
+  border: 1px solid lightslategray;
+}
+#tasks{
+  width:250px;
+  height:50px;
+  font-size: large;
+  border-radius: 5px;
+  color:white;
+  background-color:#36caf7;
+  border: 1px solid lightslategray;
+}
+#completed{
+  width:250px;
+  height:50px;
+  font-size: large;
+  border-radius: 5px;
+  color:white;
+  background-color:rgb(44, 231, 44);
+  border: 1px solid lightslategray;
+}
+
+input{
+  font-size: large;
+  width:400px;
+  height:40px;
+  border-radius: 5px;
+  border: 1px solid lightslategray;
+}
