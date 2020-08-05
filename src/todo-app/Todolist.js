@@ -50,7 +50,7 @@ class Todolist extends React.Component {
                 <div id="desc"><input type="text"  id="taskDesc"  placeholder="Enter description" ref={el => this.inputDesc = el} onChange={(e) => this.desc(e)}></input></div><br></br>
                 <div id="deadline"><input type="date"   id="taskDeadline" ref={el => this.inputDeadline = el} onChange={(e) => this.deadline(e)}></input></div><br></br>
                 <button id="add" onClick={() => this.addTodoItem()}>Add Items</button><br></br>
-                <button id="add" onClick={() => this.show()}>Show</button><br></br>
+              
                 </div>
                 
                 <div id="list">
